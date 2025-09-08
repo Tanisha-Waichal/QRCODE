@@ -16,7 +16,7 @@ const App = () => {
     e.preventDefault();
 
     if (!certificateNumber.trim()) {
-      setValidationMessage('Please enter a certificate number');
+      setValidationMessage('⚠️ Please enter a certificate number');
       setAlertVariant('warning');
       setShowAlert(true);
       return;
@@ -97,7 +97,12 @@ const App = () => {
                   onClose={() => setShowAlert(false)}
                 >
                   <h5 className="mb-2">Validation Result</h5>
-                  <p className="mb-0 fs-6">{validationMessage}</p>
+                  <p className="mb-1 fs-6">{validationMessage}</p>
+                  <hr />
+                  <p className="fw-bold mb-0">
+                    👩‍💻 Tanisha Nitin Waichal <br />
+                    🚀 Full Stack Web Development using React
+                  </p>
                 </Alert>
               )}
 
