@@ -100,8 +100,8 @@ const App = () => {
                   <p className="mb-1 fs-6">{validationMessage}</p>
                   <hr />
                   <p className="fw-bold mb-0">
-                    👩‍💻 Tanisha Nitin Waichal <br />
-                    🚀 Full Stack Web Development using React
+                    Name : Tanisha Nitin Waichal <br />
+                    Technology : Full Stack Web Development using React
                   </p>
                 </Alert>
               )}
